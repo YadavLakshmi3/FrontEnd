@@ -1,0 +1,179 @@
+*{
+  box-sizing: border-box;
+}
+
+.index{
+  background-image: url('F:/Frontend/HTML/ProjectImages/hotel.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.about{
+  background-image: url('F:/Frontend/HTML/ProjectImages/restuarant.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.about .bg-design{
+  position: relative;
+  left: 300px;
+  height: 425px;
+  width: 750px;
+  padding: 10px;
+  background-color: rgba(128, 22, 122, 0.3);
+}
+
+.cat-img{
+  background-image: url('F:/Frontend/HTML/ProjectImages/food-bg.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+.con-bg{
+  background-color: rgba(56, 9, 247, 0.3);
+}
+
+.row .cat-bg{
+  background-color: rgba(161, 158, 158, 0.2);
+}
+
+.row .north-bg{
+  background-color: rgba(54, 4, 93, 0.2);
+}
+
+.row .south-bg{
+  background-color: rgba(4, 37, 123, 0.2);
+}
+
+.index .title{
+  color:yellow;
+}
+
+.index .rName {
+  color: rgb(97, 241, 241);
+  text-shadow: 2px 2px 5px yellow;
+}
+
+.index .rName:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.cat-img .cName,
+.about .cName,
+.con-bg .cName{
+  text-shadow: 0px 0px 5px yellow;
+}
+.cat-img .cName:hover,
+.about .cName:hover,
+.con-bg .cName:hover{
+  transform: scale(0.8, 0.8);
+}
+
+.index .custom{
+  position: relative;
+  top: 70px;
+}
+
+.bg-button{
+  background-image: url('F:/Frontend/HTML/ProjectImages/eatnow.jpg');
+  box-shadow: 1px 1px 3px pink;
+  height: 55px;
+  width: 240px;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-custom{
+  background-color: rgba(151,99,78,0.4);
+  box-shadow: 5px 5px 15px black;
+  border-radius: 20px;
+}
+
+.card-header p:hover,
+.card-footer i:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.cat-img .bg-design{
+  position: relative;
+  left: 450px;
+  height: 350px;
+  width: 380px;
+  top: 100px;
+  background-color: rgba(246, 245, 242, 0.3);
+}
+
+.cat-img .card-img-top{
+  height: 200px !important;
+  width: 320px !important;
+  position: relative;
+  padding: 10px;
+  left: 18px;
+  border-radius: 25px;
+}
+
+.row .north-bg .card-img-top,
+.row .south-bg .card-img-top{
+  position: relative;
+  padding: 10px;
+  left: 6px;
+  height: 330px !important;
+  width: 340px !important;
+  border-radius: 25px;
+}
+
+.cat-img .bg-design i:hover,
+.cat-img .bg-design a:hover{
+  font-style: oblique;
+  transform: scale(1.1, 1.1);
+}
+
+.card-body .format{
+  font-size: 20px;
+  margin-bottom: 2px;
+  margin-top: 0px;
+}
+
+.format1{
+  text-align: justify;
+  font-size: 19px;
+  color: blueviolet;
+}
+
+.size{
+  height: 450px;
+}
+
+.card .modal img{
+  height: 350px;
+  border-radius: 20px;
+  animation-name: orders;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+
+
+@keyframes orders {
+  0%{
+      transform: scale(0.5,0.5);
+  }
+  50%{
+    transform: scale(0.7,0.7);
+  }
+  100%{
+    transform: scale(1.0,1.0);
+  }
+}
+
+.logo:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.btn-pos{
+  position: relative;
+  left: 235px;
+}

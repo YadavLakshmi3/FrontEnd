@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats Style Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="F:\Frontend\HTML\bootstrap-5.3.2-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body style="background-color: rgba(218, 110, 21, 0.54);">
+    <div class="container mt-2">
+        
+        <nav class="navbar navbar-dark bg-primary navbar-expand-md mb-3">
+            <div class="container-fluid">
+                <a href="category.html" class="ms-3"><img src="F:/Frontend/HTML/Images/home.jfif" height="50" width="50" alt="Image not found" class="logo" style="border-radius: 50%;"></a>
+                
+                <a href="category.html" class="navbar-brand ms-3 fs-4 fw-bolder logo">Category-MenuCard</a>
+    
+                <div class="collapse navbar-collapse" id="simple-navbar">
+                    <ul class="navbar-nav fw-bold fs-4">
+                        <li class="nav-item ms-3">
+                            <a href="northIndian.html" class="nav-link">NorthIndian</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a href="southIndian.html" class="nav-link">SouthIndian</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a href="beverages.html" class="nav-link">Beverages</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a href="desserts.html" class="nav-link">Desserts</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a href="aboutUs.html" class="nav-link">AboutUs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <div class="card north-bg text-center">
+                    <div class="card-header">
+                        <p class="h3 text-center fw-bold fst-italic text-white">Pani Puri</p>
+                    </div>
+                    <img src="F:\Frontend\HTML\ProjectImages\pani.jpg" class="card-img-top" alt="Image not available" data-bs-toggle="collapse" data-bs-target="#pani">
+                    <div class="collapse" id="pani">
+                        <div class="card-body text-white">
+                            <p class="format1 fw-bold"><mark>Taste</mark> : Spicy</p>
+                            <p class="format1 fw-bold"><mark>Main Ingridents</mark> : Puri, Pani</p>
+                            <p class="format1 fw-bold"><mark>Best Time to have</mark> : Evening</p>
+                            <p class="format1 fw-bold"><mark>Quantity</mark> : 8 Pcs</p>
+                            <p class="format1 fw-bold"><mark>Price</mark> : Rs. 30/-</p>
+                            <p class="format1 fw-bold text-center">We can enjoy this with Friends and Family members</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" role="submit" class="btn btn-warning btn-sm fw-bold mb-0" data-bs-target="#puri" data-bs-toggle="modal"><i class="fa-solid fa-bowl-food fs-4 fa-lg text-dark"><span class="fw-bolder ms-2 fs-5 text-dark">Order now...</span></i>
+
+                            <div class="modal fade" id="puri">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-info text-white text-center">
+                                            <p class="h3">Enjoy your Delicious PaniPuri...</p>
+                                            <button type="button" data-bs-dismiss="modal" class="btn-close" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-light">
+                                            <img src="F:\Frontend\HTML\ProjectImages\pani.jpg" alt="Image not avaialable" class="size w-100">
+                                            <p class="format1 fw-bold text-center mt-2"><mark>Total Price</mark> : Rs. 30/-</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card north-bg text-center">
+                    <div class="card-header">
+                        <p class="h3 text-center fw-bold fst-italic text-white">Gobi Manchurian</p>
+                    </div>
+                    <img src="F:\Frontend\HTML\ProjectImages\gobi.jpg" class="card-img-top" alt="Image not available" data-bs-toggle="collapse" data-bs-target="#gobi">
+                    <div class="collapse" id="gobi">
+                        <div class="card-body text-white">
+                            <p class="format1 fw-bold"><mark>Taste</mark> : Spicy</p>
+                            <p class="format1 fw-bold"><mark>Main Ingridents</mark> : Gobi, Sauces</p>
+                            <p class="format1 fw-bold"><mark>Best Time to have</mark> : Evening</p>
+                            <p class="format1 fw-bold"><mark>Quantity</mark> : 200 gms</p>
+                            <p class="format1 fw-bold"><mark>Price</mark> : Rs. 120/-</p>
+                            <p class="format1 fw-bold text-center">We can enjoy this with Friends and Family members</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" role="submit" class="btn btn-warning btn-sm fw-bold mb-0" data-bs-target="#manch" data-bs-toggle="modal"><i class="fa-solid fa-bowl-food fs-4 fa-lg text-dark"><span class="fw-bolder ms-2 fs-5 text-dark">Order now...</span></i>
+
+                            <div class="modal fade" id="manch">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-info text-white text-center">
+                                            <p class="h3">Enjoy your Delicious Gobi Manchurian...</p>
+                                            <button type="button" data-bs-dismiss="modal" class="btn-close" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-light">
+                                            <img src="F:\Frontend\HTML\ProjectImages\gobi.jpg" alt="Image not avaialable" class="size w-100">
+                                            <p class="format1 fw-bold text-center mt-2"><mark>Total Price</mark> : Rs. 120/-</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card north-bg text-center">
+                    <div class="card-header">
+                        <p class="h3 text-center fw-bold fst-italic text-white">Bhel Puri</p>
+                    </div>
+                    <img src="F:\Frontend\HTML\ProjectImages\bhel.jpg" class="card-img-top" alt="Image not available" data-bs-toggle="collapse" data-bs-target="#bhel">
+                    <div class="collapse" id="bhel">
+                        <div class="card-body text-white">
+                            <p class="format1 fw-bold"><mark>Taste</mark> : Mild Spicy</p>
+                            <p class="format1 fw-bold"><mark>Main Ingridents</mark> : Puffed Rice, Sev</p>
+                            <p class="format1 fw-bold"><mark>Best Time to have</mark> : Evening</p>
+                            <p class="format1 fw-bold"><mark>Quantity</mark> : 150 gms</p>
+                            <p class="format1 fw-bold"><mark>Price</mark> : Rs. 50/-</p>
+                            <p class="format1 fw-bold text-center">We can enjoy this with Friends and Family members</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" role="submit" class="btn btn-warning btn-sm fw-bold mb-0" data-bs-target="#poori" data-bs-toggle="modal"><i class="fa-solid fa-bowl-food fs-4 fa-lg text-dark"><span class="fw-bolder ms-2 fs-5 text-dark">Order now...</span></i>
+
+                            <div class="modal fade" id="poori">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-info text-white text-center">
+                                            <p class="h3">Enjoy your Delicious Bhel Puri...</p>
+                                            <button type="button" data-bs-dismiss="modal" class="btn-close" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-light">
+                                            <img src="F:\Frontend\HTML\ProjectImages\bhel.jpg" alt="Image not avaialable" class="size w-100">
+                                            <p class="format1 fw-bold text-center mt-2"><mark>Total Price</mark> : Rs. 50/-</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <div class="card north-bg text-center">
+                    <div class="card-header">
+                        <p class="h3 text-center fw-bold fst-italic text-white">Kachori</p>
+                    </div>
+                    <img src="F:\Frontend\HTML\ProjectImages\kachori.jpg" class="card-img-top" alt="Image not available" data-bs-toggle="collapse" data-bs-target="#kach">
+                    <div class="collapse" id="kach">
+                        <div class="card-body text-white">
+                            <p class="format1 fw-bold"><mark>Taste</mark> : Mild Spicy</p>
+                            <p class="format1 fw-bold"><mark>Main Ingridents</mark> : Dal fry, Flour</p>
+                            <p class="format1 fw-bold"><mark>Best Time to have</mark> : Evening</p>
+                            <p class="format1 fw-bold"><mark>Quantity</mark> : 2 Pcs</p>
+                            <p class="format1 fw-bold"><mark>Price</mark> : Rs. 60/-</p>
+                            <p class="format1 fw-bold text-center">We can enjoy this with Friends and Family members</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" role="submit" class="btn btn-warning btn-sm fw-bold mb-0" data-bs-target="#ori" data-bs-toggle="modal"><i class="fa-solid fa-bowl-food fs-4 fa-lg text-dark"><span class="fw-bolder ms-2 fs-5 text-dark">Order now...</span></i>
+
+                            <div class="modal fade" id="ori">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-info text-white text-center">
+                                            <p class="h3">Enjoy your Delicious Kachori...</p>
+                                            <button type="button" data-bs-dismiss="modal" class="btn-close" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-light">
+                                            <img src="F:\Frontend\HTML\ProjectImages\kachori.jpg" alt="Image not avaialable" class="size w-100">
+                                            <p class="format1 fw-bold text-center mt-2"><mark>Total Price</mark> : Rs. 60/-</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card north-bg text-center">
+                    <div class="card-header">
+                        <p class="h3 text-center fw-bold fst-italic text-white">Vada Pav</p>
+                    </div>
+                    <img src="F:\Frontend\HTML\ProjectImages\vadapav.jpg" class="card-img-top" alt="Image not available" data-bs-toggle="collapse" data-bs-target="#vada">
+                    <div class="collapse" id="vada">
+                        <div class="card-body text-white">
+                            <p class="format1 fw-bold"><mark>Taste</mark> : Mild Spicy</p>
+                            <p class="format1 fw-bold"><mark>Main Ingridents</mark> : Pav, Vada, Butter</p>
+                            <p class="format1 fw-bold"><mark>Best Time to have</mark> : Evening</p>
+                            <p class="format1 fw-bold"><mark>Quantity</mark> : 1 Pc</p>
+                            <p class="format1 fw-bold"><mark>Price</mark> : Rs. 50/-</p>
+                            <p class="format1 fw-bold text-center">We can enjoy this with Friends and Family members</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" role="submit" class="btn btn-warning btn-sm fw-bold mb-0" data-bs-target="#pav" data-bs-toggle="modal"><i class="fa-solid fa-bowl-food fs-4 fa-lg text-dark"><span class="fw-bolder ms-2 fs-5 text-dark">Order now...</span></i>
+
+                            <div class="modal fade" id="pav">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-info text-white text-center">
+                                            <p class="h3">Enjoy your Delicious VadaPav...</p>
+                                            <button type="button" data-bs-dismiss="modal" class="btn-close" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-light">
+                                            <img src="F:\Frontend\HTML\ProjectImages\vadapav.jpg" alt="Image not avaialable" class="size w-100">
+                                            <p class="format1 fw-bold text-center mt-2"><mark>Total Price</mark> : Rs. 50/-</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card north-bg text-center">
+                    <div class="card-header">
+                        <p class="h3 text-center fw-bold fst-italic text-white">Aloo Tikki</p>
+                    </div>
+                    <img src="F:\Frontend\HTML\ProjectImages\alootikki.jpg" class="card-img-top" alt="Image not available" data-bs-toggle="collapse" data-bs-target="#aloo">
+                    <div class="collapse" id="aloo">
+                        <div class="card-body text-white">
+                            <p class="format1 fw-bold"><mark>Taste</mark> : Mild Spicy</p>
+                            <p class="format1 fw-bold"><mark>Main Ingridents</mark> : Aloo, Spices</p>
+                            <p class="format1 fw-bold"><mark>Best Time to have</mark> : Evening</p>
+                            <p class="format1 fw-bold"><mark>Quantity</mark> : 5 Pcs</p>
+                            <p class="format1 fw-bold"><mark>Price</mark> : Rs. 130/-</p>
+                            <p class="format1 fw-bold text-center">We can enjoy this with Friends and Family members</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" role="submit" class="btn btn-warning btn-sm fw-bold mb-0" data-bs-target="#tikki" data-bs-toggle="modal"><i class="fa-solid fa-bowl-food fs-4 fa-lg text-dark"><span class="fw-bolder ms-2 fs-5 text-dark">Order now...</span></i>
+
+                            <div class="modal fade" id="tikki">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-info text-white text-center">
+                                            <p class="h3">Enjoy your Delicious Aloo Tikki...</p>
+                                            <button type="button" data-bs-dismiss="modal" class="btn-close" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-light">
+                                            <img src="F:\Frontend\HTML\ProjectImages\alootikki.jpg" alt="Image not avaialable" class="size w-100">
+                                            <p class="format1 fw-bold text-center mt-2"><mark>Total Price</mark> : Rs. 130/-</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="F:\Frontend\HTML\bootstrap-5.3.2-dist\js\bootstrap.bundle.js"></script>
+</body>
+</html>
